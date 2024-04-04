@@ -1,5 +1,6 @@
 from flask import Flask
 import datetime
+from werkzeug.urls import url_quote
 
 app = Flask(__name__)
 
@@ -11,4 +12,4 @@ def countdown():
     return f"Countdown: {remaining_time}"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8082)
+    app.run(host='0.0.0.0', port=80)
