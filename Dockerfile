@@ -9,6 +9,6 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY app.py .
 
-EXPOSE 8082
+EXPOSE 80
 
 CMD ["python3", "app.py"]
