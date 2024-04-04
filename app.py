@@ -11,4 +11,4 @@ def countdown():
     return f"Countdown: {remaining_time}"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=1234)
+    app.run(host='0.0.0.0', port=8082)
